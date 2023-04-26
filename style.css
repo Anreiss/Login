@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.apresentacao_conteudo {
+    background-color: #9bfab0;
+    padding: 40px;
+    border-radius: 2px;
+    width:280px;
+    border-radius: 20px;
+}
+
+.titulo {
+    padding-bottom: 30px;
+    color: #174225;
+}
+
+.titulo:after {
+    content: "";
+    width: 260px;
+    height: 1px;
+    background-color: #174225;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.email label {
+    color: #174225;
+    font-size: 16px;
+}
+
+.emailtexto {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+
+.emailtexto input {
+    margin-top: 10px;
+    padding:2 2px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    color: #000000;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #174225;
+    border:none;
+    border-radius: 30px;
+    color:#d1ffdcfb;
+    margin: 10px 0;
+}
+
+.mensagem-sucesso{
+    background-color: rgb(110, 250, 110);
+    color: rgb(15, 53, 15);
+    border-radius: 5px;
+}
+
+.mensagem-erro{
+    background-color: rgb(202, 0, 0);
+    color:  rgb(255, 255, 255);
+    border-radius: 5px;
+}
